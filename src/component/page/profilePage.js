@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import Header from './header'
-import TagCard from './tag'
-import Footer from './footer'
+import Header from '../atoms/header'
+import TagCard from '../atoms/tag'
+import Footer from '../atoms/footer'
 
 export default class ProfilePage extends Component{
     constructor(props){
@@ -28,7 +28,7 @@ export default class ProfilePage extends Component{
                     <p>神戸大学大学院1回生の浅野です．</p>
                     <p>面白そうなものには手を出してみたくなる性分で，大学1回生からジャグリングとギター，カメラを始めて，2回生からゲーム開発に興味を持ちUnityで簡単なゲーム開発にも手を出していました．</p>
                     <p>学部4回生ではコロナ禍の影響でリモート研究により家にいる期間が長かったので，Webアプリ開発も始めてみました．自分で何か作ったり表現することが好きなので、今も続けています．</p>
-                    <p>上記以外にもサークルの仕事などで映像を作ったり，友人とTRPGシナリオやアナログボードゲームなどを制作、販売しています．</p>
+                    <p>上記以外にもサークルの仕事などで映像を作ったり，友人とTRPGシナリオを制作、販売しています．</p>
                     <p>研究面では計算基盤研究室で複雑ネットワークに関する研究を行っています．</p>
                 </div>
                 <div className = 'tag-box'>

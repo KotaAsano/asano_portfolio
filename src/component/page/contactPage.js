@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import Header from './header'
-import Footer from './footer'
+import Header from '../atoms/header'
+import Footer from '../atoms/footer'
 
 export default class ContactPage extends Component{
     constructor(props) {

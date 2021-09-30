@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import TagCard from './tag'
+import TagCard from '../atoms/tag'
 
 export default class Card extends Component{
     constructor(props){

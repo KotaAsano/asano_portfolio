@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import Header from './header'
-import Card from './card'
-import Footer from './footer'
-import image1 from './img/img1.jpg'
-import image2 from './img/img2.JPG'
-import image3 from './img/img3.jpg'
-import image4 from './img/img4.JPG'
+import Header from '../atoms/header'
+import Card from '../molecules/card'
+import Footer from '../atoms/footer'
+import image1 from '../../img/img1.jpg'
+import image2 from '../../img/img2.JPG'
+import image3 from '../../img/img3.jpg'
+import image4 from '../../img/img4.JPG'
 
 export default class HobbyPage extends Component{
     constructor(props){
@@ -18,7 +18,6 @@ export default class HobbyPage extends Component{
                 <Header title = 'Hobby' />
                 <div className = 'nonevisivle-block'></div>
                 <Card cardTitle = 'ジャグリング' cardExpress = 'ディアボロと呼ばれる中国ゴマを用いて，学園祭や依頼されたショーなどでパフォーマンスを披露していました．' outsudeURL='#juggling-movie'tagName = '' movieURL='https://www.youtube.com/embed/wO_2-07oZFs' />
-                <Card cardTitle = 'アコースティックギター' cardExpress = 'サークルでアコースティックギターを弾いていました．' tagName = '' movieURL=''/>
                 <div className = 'card'>
                     <h2 className = 'cardTitle'>写真</h2>
                     <div className = 'cardExpress'>
@@ -32,6 +31,7 @@ export default class HobbyPage extends Component{
                     </div>
                 </div>
                 <Card cardTitle = 'TRPG・ボードゲーム' cardExpress = 'TRPGやアナログゲームなどのボードゲームを制作し，ゲームマーケットなどで販売しています．' outsideURL='https://aigeiensya.booth.pm/' tagName = '' movieURL=''/>
+                <Card cardTitle = 'アコースティックギター' cardExpress = 'サークルでアコースティックギターを弾いていました．' tagName = '' movieURL=''/>
                 <div className = 'nonevisivle-block'></div>
                 <Footer />
             </div>

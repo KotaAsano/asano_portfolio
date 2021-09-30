@@ -1,7 +1,6 @@
 import React ,{Component} from 'react'
-import Header from './header'
-import Card from './card'
-import Footer from './footer'
+import Header from '../atoms/header'
+import Footer from '../atoms/footer'
 
 export default class HomePage extends Component{
     constructor(props){
